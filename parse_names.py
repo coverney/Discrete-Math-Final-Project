@@ -32,15 +32,22 @@ for line in file:
         try:
             if ASIN != "":
                 product_ID_map[ASIN] = title
-                copurchases[ASIN] = copurchased
+                if ASIN in copurchases:
+                    copurchases[ASIN].extend(copurchased)
+                else:
+                    copurchases[ASIN] = copurchased
+                for el in copurchased:
+                    if ASIN in copurchases:
+                        if el not in copurchases[ASIN]:
+                            copurchases[ASIN].append(el)
+                    else:
+                        copurchases[ASIN] = [el]
         except NameError:
             continue
         ASIN, title, copurchased = "", "", ""
 
 # Close the metadata file
 file.close()
-
-
 # Pickle the product_ID_map to save the data and run faster later
 file_Name = "ID_map-11-18"
 # open the file for writing
