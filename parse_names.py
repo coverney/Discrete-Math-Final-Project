@@ -46,6 +46,7 @@ for line in file:
             continue
         ASIN, title, copurchased = "", "", ""
 
+print(copurchases[])
 # Close the metadata file
 file.close()
 # Pickle the product_ID_map to save the data and run faster later
