@@ -13,6 +13,7 @@ In order to access the data from these datasets, we created scripts for parsing 
 `parse_departments.py`: Parses the EU-core-network departments for each person. <br>
 
 ## Bron-Kerbosch Algorithm
+In the Jupyter notebooks in this repository labelled with "Bron-Kerbosch", you can run our implementation of the Bron-Kerbosch algorithm, using recursive backtracking. The notebooks display information on algorithm run-time, number of recursive calls, identified maximal and maximum cliques, mapped names of what the clique items are, and visualizations of department breakdown for the email network. The notebooks are labelled by date they were made, and by dataset. The more recent notebooks include more features. The notebooks include implementation of the BK algorithm naively, with a pivot, and with degeneracy ordering as extensions. We discovered that the pivot method was significantly faster than the naive method for the email dataset, taking 29.36 ms for the pivot method, and 202.46 ms for the naive method. This is almost a factor of 10!
 
 ## Visualization
 
