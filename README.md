@@ -1,7 +1,7 @@
 # Discrete-Math-Final-Project
 ---
 
-**Link to Presentation**: https://docs.google.com/presentation/d/1uqC-Qx4atb-EpN-K5tSreMO5Cp9bhCh1xRemJBxIhJU/edit?usp=sharing
+**Link to Presentation**: [Here](https://docs.google.com/presentation/d/1uqC-Qx4atb-EpN-K5tSreMO5Cp9bhCh1xRemJBxIhJU/edit?usp=sharing)
 
 ## Dependencies
 To run the code in this repository, install jupyter notebook and Python 3 in your environment. A list of the packages needed for different scripts is included in the requirements.txt document.
