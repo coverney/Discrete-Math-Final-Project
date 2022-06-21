@@ -9,7 +9,7 @@ nbconvert==5.6.1
 nbformat==4.4.0
 notebook==6.0.2
 numexpr==2.7.0
-numpy==1.17.4
+numpy==1.22.0
 pandas==0.25.3
 pickleshare==0.7.5
 requests==2.22.0
